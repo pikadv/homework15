@@ -1,0 +1,125 @@
+/* Background styles */
+
+.bgd-purple {
+	background-color: #6c2bbb;
+}
+
+.bgd-blue {
+	background-color: #3768df;
+}
+
+.bgd-green {
+	background-color: #0bac4e;
+}
+
+.bgd-red {
+	background-color: #ee4d52;
+}
+
+.bgd-orange {
+	background-color: #f67e1f;
+}
+
+.bgd-teal {
+	background-color: #2fa0a6;
+}
+
+.bgd-solid {
+	background-color: #ceeed7;
+}
+
+.bgd-gradient {
+	background: linear-gradient(45deg, #9a3fcc, #e2639a, #feb765);
+}
+
+.bgd-image {
+	background-image: url(/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+body {
+	background-color: #f8f7fd;
+	min-width: min-content;
+}
+
+/* others */
+
+.text-purple {
+	color: #6c2bbb;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.bg-content {
+	width: 80px;
+	height: 80px;
+}
+
+.content-subtitle {
+	font-size: 0.8rem;
+	color: #666;
+}
+
+.bg-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+h2 {
+	min-width: max-content;
+	font-size: 1rem;
+	padding: 0.5rem;
+	color: white;
+}
+
+.content-box {
+	width: min-content;
+	min-width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.content-body {
+	padding: 1rem;
+	display: grid;
+	gap: 1rem;
+}
+
+.flex-box {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.border-solid {
+	border: 2px solid #000;
+}
+
+.border-dashed {
+	border: 2px dashed #000;
+}
+
+.border-dotted {
+	border: 2px dotted #000;
+}
+
+.border-box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
